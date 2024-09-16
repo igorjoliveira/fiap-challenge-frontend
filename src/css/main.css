@@ -41,7 +41,7 @@
     --ct-menu-bg: rgba(255, 0, 0, 0.650);
     --ct-menu-item-color: #ffffff;
     --ct-menu-item-hover-color: #bccee4;
-    --ct-menu-item-active-color: #ffffff;
+    --ct-menu-item-active-color: #bccee4;
 }
 
 :root {
