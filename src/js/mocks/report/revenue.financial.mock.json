@@ -1,0 +1,49 @@
+{
+  "receitas": [
+    {
+      "descricao": "Venda de Produto A",
+      "loja": "Loja 1",
+      "origem_transacao": "Digital",
+      "forma_pagamento": "Cartão Crédito",
+      "valor": 500.00,
+      "data_hora_realizada": "2024-09-01T14:30:00",
+      "usuario": "user1@example.com"
+    },
+    {
+      "descricao": "Serviço de Consultoria",
+      "loja": "Loja 2",
+      "origem_transacao": "Online",
+      "forma_pagamento": "Vale Refeição",
+      "valor": 300.00,
+      "data_hora_realizada": "2024-09-02T09:00:00",
+      "usuario": "user2@example.com"
+    },
+    {
+      "descricao": "Venda de Produto B",
+      "loja": "Loja 1",
+      "origem_transacao": "Digital",
+      "forma_pagamento": "Cartão Débito",
+      "valor": 200.00,
+      "data_hora_realizada": "2024-09-03T16:15:00",
+      "usuario": "user3@example.com"
+    },
+    {
+      "descricao": "Consultoria em TI",
+      "loja": "Loja 3",
+      "origem_transacao": "Online",
+      "forma_pagamento": "Outros",
+      "valor": 700.00,
+      "data_hora_realizada": "2024-09-04T11:45:00",
+      "usuario": "user4@example.com"
+    },
+    {
+      "descricao": "Venda de Produto C",
+      "loja": "Loja 2",
+      "origem_transacao": "Digital",
+      "forma_pagamento": "Cartão Crédito",
+      "valor": 400.00,
+      "data_hora_realizada": "2024-09-05T13:30:00",
+      "usuario": "user1@example.com"
+    }
+  ]
+}

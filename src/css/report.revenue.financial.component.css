@@ -1,0 +1,15 @@
+@import url(main.css);
+@import url(header.component.css);
+@import url(menu.component.css);
+@import url(icons.css);
+
+.chart-container {
+    width: 100%; 
+    max-width: 600px;
+    height: 300px; 
+    margin: 0 auto;
+}
+#paymentChart {
+    width: 100% !important; 
+    height: 100% !important; 
+}
