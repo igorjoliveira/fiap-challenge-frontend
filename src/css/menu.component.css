@@ -1,0 +1,201 @@
+
+.leftside-menu {
+    z-index: 1000;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    width: var(--ct-leftbar-width);
+    min-width: var(--ct-leftbar-width);
+    padding-bottom: calc(var(--ct-footer-height) + .75rem);
+    background: var(--ct-menu-bg);
+    -webkit-box-shadow: var(--ct-box-shadow);
+    box-shadow: var(--ct-box-shadow);
+    border-right: var(--ct-theme-card-border-width) solid var(--ct-border-color);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.logo span.logo-lg {
+    display: block
+}
+
+.logo span.logo-sm {
+    display: none;
+}
+
+.logo {
+    display: block;
+    top: 0;
+    position: sticky;
+    text-align: center;
+    line-height: var(--ct-topbar-height);
+    padding: 0 calc(var(--ct-leftbar-width-sm) * .5 - var(--ct-logo-sm-height) * .7);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    color: var(--bs-white);
+}
+
+.leftside-menu h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.leftside-menu h1 span {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.side-nav {
+    padding-left: 0;
+    list-style-type: none
+}
+
+.side-nav ul {
+    list-style-type: none
+}
+
+.side-nav .side-nav-link {
+    display: block;
+    list-style: none;
+    position: relative;
+    white-space: nowrap;
+    color: var(--ct-menu-item-color);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    font-size: var(--ct-menu-item-font-size);
+    padding: var(--ct-menu-item-padding-y) var(--ct-menu-item-padding-x)
+}
+
+.side-nav .side-nav-link:active,.side-nav .side-nav-link:focus,.side-nav .side-nav-link:hover {
+    color: var(--ct-menu-item-hover-color);
+    text-decoration: none
+}
+
+.side-nav .side-nav-link span {
+    vertical-align: middle
+}
+
+.side-nav .side-nav-link i {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: var(--ct-menu-item-icon-size);
+    line-height: var(--ct-menu-item-icon-size);
+    width: calc(var(--ct-leftbar-width-sm) - var(--ct-menu-item-padding-x) * 2);
+    min-width: calc(var(--ct-leftbar-width-sm) - var(--ct-menu-item-padding-x) * 2)
+}
+
+.side-nav .menu-arrow {
+    display: inline-block;
+    text-rendering: auto;
+    position: absolute;
+    top: 50%;
+    right: calc(var(--ct-menu-item-padding-x) * 1.5);
+    -webkit-transition: -webkit-transform .15s;
+    transition: -webkit-transform .15s;
+    transition: transform .15s;
+    transition: transform .15s,-webkit-transform .15s;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    line-height: var(--ct-menu-item-icon-size);
+    font-size: calc(var(--ct-menu-item-font-size) * 1.18)
+}
+
+.side-nav .menu-arrow:before {
+    content: "\f0142";
+    font-family: "Material Design Icons"
+}
+
+.side-nav .badge {
+    margin-top: calc(var(--ct-menu-item-font-size) * .25);
+    position: absolute;
+    right: 0;
+    margin-right: calc(var(--ct-menu-item-padding-x) * 3)
+}
+
+.side-nav .side-nav-title {
+    letter-spacing: .05em;
+    pointer-events: none;
+    cursor: default;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: var(--ct-menu-item-color);
+    font-weight: 700;
+    font-size: calc(var(--ct-menu-item-font-size) * .74);
+    padding: var(--ct-menu-item-padding-y) calc(var(--ct-menu-item-padding-x) * 2)
+}
+
+.side-nav .side-nav-item>a[aria-expanded=true]>span.menu-arrow {
+    -webkit-transform: translate(-50%,-50%) rotate(90deg);
+    transform: translate(-50%,-50%) rotate(90deg)
+}
+
+.side-nav .side-nav-item.menuitem-active>a:not(.collapsed)>span.menu-arrow {
+    -webkit-transform: translate(-50%,-50%) rotate(90deg);
+    transform: translate(-50%,-50%) rotate(90deg)
+}
+
+.side-nav .menuitem-active>a {
+    color: var(--ct-menu-item-active-color);
+    font-weight: 500
+}
+
+.side-nav .menuitem-active>a:active,.side-nav .menuitem-active>a:focus,.side-nav .menuitem-active>a:hover {
+    color: var(--ct-menu-item-active-color)
+}
+
+.side-nav .menuitem-active .menuitem-active .active {
+    color: var(--ct-menu-item-active-color);
+    font-weight: 500
+}
+
+.side-nav.bottom {
+    bottom: 0;
+    width: 100%;
+    position: absolute
+}
+
+[dir=rtl] .side-nav .side-nav-item .menu-arrow:before {
+    content: "\f0141"!important
+}
+
+.side-nav-forth-level .side-nav-item,.side-nav-forth-level li,.side-nav-second-level .side-nav-item,.side-nav-second-level li,.side-nav-third-level .side-nav-item,.side-nav-third-level li {
+    padding: 0
+}
+
+.side-nav-forth-level .side-nav-item .side-nav-link,.side-nav-forth-level .side-nav-item a,.side-nav-forth-level li .side-nav-link,.side-nav-forth-level li a,.side-nav-second-level .side-nav-item .side-nav-link,.side-nav-second-level .side-nav-item a,.side-nav-second-level li .side-nav-link,.side-nav-second-level li a,.side-nav-third-level .side-nav-item .side-nav-link,.side-nav-third-level .side-nav-item a,.side-nav-third-level li .side-nav-link,.side-nav-third-level li a {
+    color: var(--ct-menu-item-color);
+    display: block;
+    position: relative;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    font-size: calc(var(--ct-menu-item-font-size) * .98);
+    padding: calc(var(--ct-menu-item-padding-y) * .6) calc(var(--ct-menu-item-padding-x) * 1.5)
+}
+
+.side-nav-forth-level .side-nav-item .side-nav-link:active,.side-nav-forth-level .side-nav-item .side-nav-link:focus,.side-nav-forth-level .side-nav-item .side-nav-link:hover,.side-nav-forth-level .side-nav-item a:active,.side-nav-forth-level .side-nav-item a:focus,.side-nav-forth-level .side-nav-item a:hover,.side-nav-forth-level li .side-nav-link:active,.side-nav-forth-level li .side-nav-link:focus,.side-nav-forth-level li .side-nav-link:hover,.side-nav-forth-level li a:active,.side-nav-forth-level li a:focus,.side-nav-forth-level li a:hover,.side-nav-second-level .side-nav-item .side-nav-link:active,.side-nav-second-level .side-nav-item .side-nav-link:focus,.side-nav-second-level .side-nav-item .side-nav-link:hover,.side-nav-second-level .side-nav-item a:active,.side-nav-second-level .side-nav-item a:focus,.side-nav-second-level .side-nav-item a:hover,.side-nav-second-level li .side-nav-link:active,.side-nav-second-level li .side-nav-link:focus,.side-nav-second-level li .side-nav-link:hover,.side-nav-second-level li a:active,.side-nav-second-level li a:focus,.side-nav-second-level li a:hover,.side-nav-third-level .side-nav-item .side-nav-link:active,.side-nav-third-level .side-nav-item .side-nav-link:focus,.side-nav-third-level .side-nav-item .side-nav-link:hover,.side-nav-third-level .side-nav-item a:active,.side-nav-third-level .side-nav-item a:focus,.side-nav-third-level .side-nav-item a:hover,.side-nav-third-level li .side-nav-link:active,.side-nav-third-level li .side-nav-link:focus,.side-nav-third-level li .side-nav-link:hover,.side-nav-third-level li a:active,.side-nav-third-level li a:focus,.side-nav-third-level li a:hover {
+    color: var(--ct-menu-item-hover-color)
+}
+
+.side-nav-forth-level .side-nav-item.active>a,.side-nav-forth-level li.active>a,.side-nav-second-level .side-nav-item.active>a,.side-nav-second-level li.active>a,.side-nav-third-level .side-nav-item.active>a,.side-nav-third-level li.active>a {
+    color: var(--ct-menu-item-active-color)
+}
+
+.side-nav-forth-level .side-nav-item.active>a:active,.side-nav-forth-level .side-nav-item.active>a:focus,.side-nav-forth-level .side-nav-item.active>a:hover,.side-nav-forth-level li.active>a:active,.side-nav-forth-level li.active>a:focus,.side-nav-forth-level li.active>a:hover,.side-nav-second-level .side-nav-item.active>a:active,.side-nav-second-level .side-nav-item.active>a:focus,.side-nav-second-level .side-nav-item.active>a:hover,.side-nav-second-level li.active>a:active,.side-nav-second-level li.active>a:focus,.side-nav-second-level li.active>a:hover,.side-nav-third-level .side-nav-item.active>a:active,.side-nav-third-level .side-nav-item.active>a:focus,.side-nav-third-level .side-nav-item.active>a:hover,.side-nav-third-level li.active>a:active,.side-nav-third-level li.active>a:focus,.side-nav-third-level li.active>a:hover {
+    color: var(--ct-menu-item-active-color)
+}
+
+.side-nav-second-level {
+    margin-top: calc(var(--ct-menu-item-padding-y) * -.5);
+    padding-left: calc(var(--ct-leftbar-width-sm) - var(--ct-menu-item-padding-x) * 2)
+}
+
+.side-nav-third-level {
+    padding-left: calc(var(--ct-menu-item-padding-x) * 2)
+}
+
+.side-nav-forth-level {
+    padding-left: calc(var(--ct-menu-item-padding-x) * 2)
+}
+

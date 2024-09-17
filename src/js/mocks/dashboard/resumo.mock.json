@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Volume Financeiro",
+    "valor": "R$50000",
+    "percentual": 15
+  },
+  {
+    "id": 2,
+    "titulo": "Qtde de transações",
+    "valor": "2500",
+    "percentual": -5
+  },
+  {
+    "id": 3,
+    "titulo": "Evento(s) em andamento",
+    "valor": "4",
+    "percentual": 0
+  },
+  {
+    "id": 4,
+    "titulo": "Meta(s) atingida(s)",
+    "valor": "1",
+    "percentual": -60
+  }
+]
