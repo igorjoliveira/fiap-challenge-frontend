@@ -1,0 +1,22 @@
+@import url(main.css);
+@import url(header.component.css);
+@import url(menu.component.css);
+@import url(payment.component.css);
+@import url(icons.css);
+
+.needs-validation .form-control:invalid,
+.needs-validation .form-select:invalid {
+    border-color: #dc3545;
+}
+.needs-validation .form-control:invalid:focus,
+.needs-validation .form-select:invalid:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+.needs-validation .form-control:valid,
+.needs-validation .form-select:valid {
+    border-color: #198754;
+}
+.needs-validation .form-control:valid:focus,
+.needs-validation .form-select:valid:focus {
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
