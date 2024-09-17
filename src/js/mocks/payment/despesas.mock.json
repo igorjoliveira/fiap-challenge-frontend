@@ -1,0 +1,151 @@
+{
+  "despesas": [
+    {
+      "descricao": "Salário Mensal",
+      "tipoDespesa": "Salário",
+      "usuario": "joao.carlos@gmail.com",
+      "pagamentoData": "2024-09-01",
+      "valor": 3000.00
+    },
+    {
+      "descricao": "Aluguel do Apartamento",
+      "tipoDespesa": "Aluguel",
+      "usuario": "matheus@outlook.com",
+      "pagamentoData": "2024-09-02",
+      "valor": 1200.00
+    },
+    {
+      "descricao": "Plano de Internet",
+      "tipoDespesa": "Internet",
+      "usuario": "gabriela@gmail.com",
+      "pagamentoData": "2024-09-03",
+      "valor": 150.00
+    },
+    {
+      "descricao": "Conta de Água",
+      "tipoDespesa": "Água",
+      "usuario": "juliana@outlook.com",
+      "pagamentoData": "2024-09-04",
+      "valor": 80.00
+    },
+    {
+      "descricao": "Conta de Luz",
+      "tipoDespesa": "Luz",
+      "usuario": "cauan@gmail.com",
+      "pagamentoData": "2024-09-05",
+      "valor": 120.00
+    },
+    {
+      "descricao": "Compra de Livros",
+      "tipoDespesa": "Outros",
+      "usuario": "guilherme@gmail.com",
+      "pagamentoData": "2024-09-06",
+      "valor": 200.00
+    },
+    {
+      "descricao": "Salário Extra",
+      "tipoDespesa": "Salário",
+      "usuario": "matheus@outlook.com",
+      "pagamentoData": "2024-09-07",
+      "valor": 500.00
+    },
+    {
+      "descricao": "Aluguel do Escritório",
+      "tipoDespesa": "Aluguel",
+      "usuario": "joao.carlos@gmail.com",
+      "pagamentoData": "2024-09-08",
+      "valor": 800.00
+    },
+    {
+      "descricao": "Assinatura de Streaming",
+      "tipoDespesa": "Internet",
+      "usuario": "juliana@outlook.com",
+      "pagamentoData": "2024-09-09",
+      "valor": 40.00
+    },
+    {
+      "descricao": "Conta de Água",
+      "tipoDespesa": "Água",
+      "usuario": "gabriela@gmail.com",
+      "pagamentoData": "2024-09-10",
+      "valor": 85.00
+    },
+    {
+      "descricao": "Conta de Luz",
+      "tipoDespesa": "Luz",
+      "usuario": "cauan@gmail.com",
+      "pagamentoData": "2024-09-11",
+      "valor": 110.00
+    },
+    {
+      "descricao": "Reparos na Casa",
+      "tipoDespesa": "Outros",
+      "usuario": "guilherme@gmail.com",
+      "pagamentoData": "2024-09-12",
+      "valor": 350.00
+    },
+    {
+      "descricao": "Salário de Projeto",
+      "tipoDespesa": "Salário",
+      "usuario": "gabriela@gmail.com",
+      "pagamentoData": "2024-09-13",
+      "valor": 1500.00
+    },
+    {
+      "descricao": "Aluguel de Carro",
+      "tipoDespesa": "Outros",
+      "usuario": "matheus@outlook.com",
+      "pagamentoData": "2024-09-14",
+      "valor": 400.00
+    },
+    {
+      "descricao": "Internet Rápida",
+      "tipoDespesa": "Internet",
+      "usuario": "joao.carlos@gmail.com",
+      "pagamentoData": "2024-09-15",
+      "valor": 200.00
+    },
+    {
+      "descricao": "Conta de Água",
+      "tipoDespesa": "Água",
+      "usuario": "juliana@outlook.com",
+      "pagamentoData": "2024-09-16",
+      "valor": 90.00
+    },
+    {
+      "descricao": "Conta de Luz",
+      "tipoDespesa": "Luz",
+      "usuario": "guilherme@gmail.com",
+      "pagamentoData": "2024-09-17",
+      "valor": 130.00
+    },
+    {
+      "descricao": "Salário Adicional",
+      "tipoDespesa": "Salário",
+      "usuario": "cauan@gmail.com",
+      "pagamentoData": "2024-09-18",
+      "valor": 600.00
+    },
+    {
+      "descricao": "Aluguel do Depósito",
+      "tipoDespesa": "Aluguel",
+      "usuario": "joao.carlos@gmail.com",
+      "pagamentoData": "2024-09-19",
+      "valor": 300.00
+    },
+    {
+      "descricao": "Curso Online",
+      "tipoDespesa": "Outros",
+      "usuario": "guilherme@gmail.com",
+      "pagamentoData": "2024-09-20",
+      "valor": 150.00
+    },
+    {
+      "descricao": "Plano de Internet",
+      "tipoDespesa": "Internet",
+      "usuario": "cauan@gmail.com",
+      "pagamentoData": "2024-09-21",
+      "valor": 160.00
+    }
+  ]
+}
