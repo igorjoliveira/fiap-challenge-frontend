@@ -1,0 +1,29 @@
+{
+  "categorias": [
+    {
+      "nome": "Salário",
+      "valorTotal": 30000,
+      "quantidade": 10
+    },
+    {
+      "nome": "Locação de imóvel",
+      "valorTotal": 8500,
+      "quantidade": 3
+    },
+    {
+      "nome": "Conta de Luz",
+      "valorTotal": 1100,
+      "quantidade": 3
+    },
+    {
+      "nome": "Conta de Água",
+      "valorTotal": 850,
+      "quantidade": 3
+    },
+    {
+      "nome": "Conta de Internet",
+      "valorTotal": 800,
+      "quantidade": 3
+    }
+  ]
+}

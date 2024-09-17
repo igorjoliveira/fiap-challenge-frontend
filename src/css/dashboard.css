@@ -1,7 +1,6 @@
 @import url(main.css);
 @import url(header.component.css);
 @import url(menu.component.css);
-@import url(despesa.component.css);
 @import url(icons.css);
 
 @media (min-width: 576px) {

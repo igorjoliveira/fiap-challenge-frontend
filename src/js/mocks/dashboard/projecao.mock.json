@@ -1,0 +1,40 @@
+{
+  "metas": [
+    {
+      "fechamentoData": "2024-01-31",
+      "valorPlanejado": 5000,
+      "valorRealizado": 4500,
+      "batido": false
+    },
+    {
+      "fechamentoData": "2024-02-29",
+      "valorPlanejado": 5000,
+      "valorRealizado": 5200,
+      "batido": true
+    },
+    {
+      "fechamentoData": "2024-03-31",
+      "valorPlanejado": 5500,
+      "valorRealizado": 6000,
+      "batido": true
+    },
+    {
+      "fechamentoData": "2024-04-30",
+      "valorPlanejado": 6000,
+      "valorRealizado": 5200,
+      "batido": false
+    },
+    {
+      "fechamentoData": "2024-05-31",
+      "valorPlanejado": 6000,
+      "valorRealizado": 400,
+      "batido": false
+    },
+    {
+      "fechamentoData": "2024-06-30",
+      "valorPlanejado": 6500,
+      "valorRealizado": 5900,
+      "batido": false
+    }
+  ]
+}

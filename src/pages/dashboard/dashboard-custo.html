@@ -88,8 +88,8 @@
                 </a>
               </li>
               <li>
-                <a href="dashboard-custo-categoria.html">
-                    <span>Custo x Categoria</span>
+                <a href="dashboard-categoria.html">
+                  <span>Custo x Categoria</span>
                 </a>
               </li>
             </ul>
@@ -164,6 +164,13 @@
               </div>
             </div>
           </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+              <div class="chart-container">
+                <canvas id="myLineChart"></canvas>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -172,6 +179,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/date-fns"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+  <script src="../../js/dashboard-custo.service.js"></script>
 </body>
 
 </html>

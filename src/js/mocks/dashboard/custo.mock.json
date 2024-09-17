@@ -1,0 +1,40 @@
+{
+  "custos": [
+    {
+      "cadastroData": "2024-01-31",
+      "valorTotal": 5000
+    },
+    {
+      "cadastroData": "2024-02-29",
+      "valorTotal": 5500
+    },
+    {
+      "cadastroData": "2024-03-31",
+      "valorTotal": 4000
+    },
+    {
+      "cadastroData": "2024-04-30",
+      "valorTotal": 4800
+    },
+    {
+      "cadastroData": "2024-05-31",
+      "valorTotal": 6000
+    },
+    {
+      "cadastroData": "2024-06-30",
+      "valorTotal": 6300
+    },
+    {
+      "cadastroData": "2024-07-31",
+      "valorTotal": 3500
+    },
+    {
+      "cadastroData": "2024-08-31",
+      "valorTotal": 800
+    },
+    {
+      "cadastroData": "2024-09-15",
+      "valorTotal": 300
+    }
+  ]
+}
